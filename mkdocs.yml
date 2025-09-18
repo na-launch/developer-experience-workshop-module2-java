@@ -1,0 +1,9 @@
+site_name: Module 2 - Java
+site_description: Introduction to Red Hat Dev Spaces - Java
+
+nav:
+  - Overview: index.md
+  - Quarkus: quarkus.md
+
+plugins:
+  - techdocs-core

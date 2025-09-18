@@ -1,0 +1,13 @@
+# Start from the smallest UBI base
+FROM registry.access.redhat.com/ubi9-micro:latest
+
+# Quarkus adds a static binary to target/*-runner
+WORKDIR /work/
+COPY target/*-runner /work/application
+
+# Run as non-root (185 is Quarkus default user)
+USER 185
+
+# Expose Quarkus port
+EXPOSE 8080
+CMD ["./application", "-Dquarkus.http.host=0.0.0.0"]
