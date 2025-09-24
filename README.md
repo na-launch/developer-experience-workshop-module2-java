@@ -1,6 +1,7 @@
 # 🚀 **Module 2: Introduction to DevSpaces**
 
 **Technology Stack:**  
+
 - Quarkus  
 - DevSpaces  
 

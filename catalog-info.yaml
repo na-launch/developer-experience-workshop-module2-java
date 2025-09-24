@@ -9,19 +9,10 @@ metadata:
     backstage.io/techdocs-ref: dir:.
   tags:
     - devspaces
-  links:
-    - url: https://devspaces.apps.<cluster-domain>/#https://gitlab.apps.<cluster-domain>/developers/developer-experience-workshop-module2-java.git
-      title: "Launch from Dev Spaces"
-      icon: web
 spec:
   type: module
   lifecycle: production
   owner: group:default/cluster-admins
-  gitlab:
-    remoteUrl: https://gitlab.apps.<cluster-domain>/developers/developer-experience-workshop-module2-java.git
-    owner: developers
-    repository: workshop-repository
-    branch: main
   subcomponentOf: component:default/workshop-repository
   dependsOn:
     - component:default/workshop-agenda
