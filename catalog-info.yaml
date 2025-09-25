@@ -9,6 +9,7 @@ metadata:
     backstage.io/techdocs-ref: dir:.
   tags:
     - devspaces
+    - java
 spec:
   type: module
   lifecycle: production
