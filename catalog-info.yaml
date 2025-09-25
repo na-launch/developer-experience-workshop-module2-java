@@ -14,6 +14,3 @@ spec:
   lifecycle: production
   owner: group:default/cluster-admins
   subcomponentOf: component:default/workshop-repository
-  dependsOn:
-    - component:default/workshop-agenda
-
